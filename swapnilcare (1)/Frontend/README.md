@@ -2,9 +2,13 @@
 
 SwapnilCare is a modern, interactive online pharmacy platform built with Next.js, Tailwind CSS, and Firebase. The application provides a seamless shopping experience for healthcare products with features like product search, filtering, cart management, and checkout.
 
+## Deployed Application
+- **Frontend**: [SwapnilCare UI](https://v0-swapnilcare-ui-design.vercel.app)
+
 ## Features Implemented
 
 ### Core Functionality
+
 - **Product Catalog**: Browse and search through a wide range of healthcare products
 - **Product Details**: View detailed information about each product with image galleries
 - **Shopping Cart**: Add products to cart, update quantities, and apply coupon codes
@@ -15,6 +19,7 @@ SwapnilCare is a modern, interactive online pharmacy platform built with Next.js
 - **Pagination**: Browse through multiple pages of products
 
 ### UI/UX Enhancements
+
 - **Modern Design**: Implemented with the specified color scheme (#182628, #650CB5, #57BA98, #389456, #FEFFFF)
 - **Interactive Elements**: Animations using Framer Motion for a dynamic user experience
 - **Gradients & Shadows**: Applied throughout the UI for a modern look and feel
@@ -22,6 +27,7 @@ SwapnilCare is a modern, interactive online pharmacy platform built with Next.js
 - **Custom Logo**: Created a unique logo for SwapnilCare
 
 ### Pages Created
+
 1. **Home**: Featured products, categories, and promotional banners
 2. **Products**: Product listing with filters, search functionality, and pagination
 3. **Product Detail**: Comprehensive product information with image gallery
@@ -36,6 +42,7 @@ SwapnilCare is a modern, interactive online pharmacy platform built with Next.js
 12. **Contact**: Contact form and company information
 
 ### Special Features
+
 - **Coupon System**: Apply discount codes (swapnil20, health15, care10, first5)
 - **Notifications**: View available coupons and updates in the notification panel
 - **Cart Notifications**: Toast notifications when adding/removing items from cart
@@ -45,16 +52,19 @@ SwapnilCare is a modern, interactive online pharmacy platform built with Next.js
 ## Technical Implementation
 
 ### Firebase Integration
+
 - Authentication for user login/registration
 - Comprehensive product data with images, descriptions, and categories
 
 ### Error Fixes
+
 - Fixed React context provider issues
 - Resolved "Cannot read properties of undefined (reading 'signal')" error
 - Fixed "Unexpected Fiber popped" error
 - Ensured proper rendering of components
 
 ### Code Structure
+
 - Organized components for reusability
 - Context providers for auth, cart, wishlist, and theme management
 - Responsive design with Tailwind CSS
@@ -68,9 +78,11 @@ SwapnilCare is a modern, interactive online pharmacy platform built with Next.js
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Environment Variables
+
 The application uses Firebase for authentication and data storage. Firebase configuration is included in the code for demonstration purposes.
 
 ## Future Enhancements
+
 - Integration with real payment gateways
 - Order tracking functionality
 - User profile management
